@@ -1,0 +1,23 @@
+{
+  "name": "scripts",
+  "version": "1.0.0",
+  "description": "For automation of some Api tasks using Js",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "watch": "tsc --watch"
+  },
+  "author": "zayonsoft",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.13.2",
+    "uuid": "^13.0.0"
+  },
+  "devDependencies": {
+    "@types/dotenv": "^6.1.1",
+    "@types/node": "^25.0.2",
+    "dotenv": "^17.2.3"
+  }
+}
